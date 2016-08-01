@@ -1,7 +1,3 @@
-function closeForm(){
-  $('#memberForm').slideUp();
-}
-
 $(document).ready(function(){
   $('#signup1').click(function(){
     $('html, body').animate({
