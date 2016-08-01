@@ -232,7 +232,7 @@
 
 					<p>Dive into the world of technology by joining the Alpharetta Coding Club today!</p>
 
-					<form method="post" action="#">
+					<form id="memberForm" onsubmit="closeForm()" method="post" action="https://formspree.io/alpharettacodingclub@gmail.com">
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name" />
@@ -253,15 +253,16 @@
 								</ul>
 							</div>
 						</div>
+						<input type="hidden" name="_subject" value="New member!"/>
+						<input type="hidden" name="_next" value="#thanks" />
 					</form>
 
 					<ul class="icons">
 						<br/>
 						<li><p>Stay Connected!</p></li><br/>
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+						<li><a href="https://twitter.com/ahscodingclub" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/alpharettacodingclub" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="mailto:alpharettacodingclub@gmail.com" class="icon fa-envelope"><span class="label">Mail</span></a></li>
 					</ul>
 
 					<ul class="copyright">
